@@ -1,0 +1,6 @@
+framework module THCategories {
+  umbrella header "THCategories-umbrella.h"
+
+  export *
+  module * { export * }
+}

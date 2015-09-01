@@ -1,0 +1,14 @@
+PODS:
+  - THCategories (0.1.0)
+
+DEPENDENCIES:
+  - THCategories (from `../`)
+
+EXTERNAL SOURCES:
+  THCategories:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  THCategories: db250c08a5de12c16f12f366f40cfef90faec717
+
+COCOAPODS: 0.38.2
