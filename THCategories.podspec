@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "THCategories"
-  s.version          = "0.5.2"
+  s.version          = "0.5.5"
   s.summary          = "A helpful collection of category methods."
 
 # This description is used to generate tags and improve search results.
