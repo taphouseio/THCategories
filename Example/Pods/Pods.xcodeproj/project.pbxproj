@@ -10,10 +10,24 @@
 		10212AD8CAF76829A14590483F6E7798 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BC22BC4FC3E5A66B9BBB262A2B2081 /* Foundation.framework */; };
 		189258C9CF81795AD3A6F41892C554B4 /* THCategories-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 811EC8A1D34515AD99A702B3C5871875 /* THCategories-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C3AA96E3278809F55048DCB411646C8 /* THCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2896EE98C65C51852927A8A4427402F3 /* THCategories-dummy.m */; };
-		3D885CEF88B6BF8D595AEBE89E6CAF13 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EC90466286DB2693DDFB3D7390804A6A /* ReplaceMe.m */; };
 		46CD557A9D398527689A0A91663EFB93 /* Pods-THCategories_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1789D718225ACA70C7F0085402E4E846 /* Pods-THCategories_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DC0AEE57DBE85FABE43CACA3077C9C7 /* THCategories.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E97824CE2BE0EE567C438C2ABA2436CA /* THCategories.bundle */; };
 		68DB6D2C17A09CC94FBED9AA5AD310E7 /* Pods-THCategories_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6432DF1492644C6293ABE0B0E6B36CE /* Pods-THCategories_Tests-dummy.m */; };
+		9342D61B1B95612300586905 /* NSDate+THExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9342D6151B95612300586905 /* NSDate+THExtension.h */; settings = {ASSET_TAGS = (); }; };
+		9342D61C1B95612300586905 /* NSDate+THExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9342D6151B95612300586905 /* NSDate+THExtension.h */; settings = {ASSET_TAGS = (); }; };
+		9342D61D1B95612300586905 /* NSDate+THExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9342D6161B95612300586905 /* NSDate+THExtension.m */; settings = {ASSET_TAGS = (); }; };
+		9342D61E1B95612300586905 /* NSDate+THExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9342D6161B95612300586905 /* NSDate+THExtension.m */; settings = {ASSET_TAGS = (); }; };
+		9342D61F1B95612300586905 /* NSDate+THExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9342D6161B95612300586905 /* NSDate+THExtension.m */; settings = {ASSET_TAGS = (); }; };
+		9342D6201B95612300586905 /* NSFileManager+THExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9342D6171B95612300586905 /* NSFileManager+THExtension.h */; settings = {ASSET_TAGS = (); }; };
+		9342D6211B95612300586905 /* NSFileManager+THExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9342D6171B95612300586905 /* NSFileManager+THExtension.h */; settings = {ASSET_TAGS = (); }; };
+		9342D6221B95612300586905 /* NSFileManager+THExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9342D6181B95612300586905 /* NSFileManager+THExtension.m */; settings = {ASSET_TAGS = (); }; };
+		9342D6231B95612300586905 /* NSFileManager+THExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9342D6181B95612300586905 /* NSFileManager+THExtension.m */; settings = {ASSET_TAGS = (); }; };
+		9342D6241B95612300586905 /* NSFileManager+THExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9342D6181B95612300586905 /* NSFileManager+THExtension.m */; settings = {ASSET_TAGS = (); }; };
+		9342D6251B95612300586905 /* NSString+THExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9342D6191B95612300586905 /* NSString+THExtension.h */; settings = {ASSET_TAGS = (); }; };
+		9342D6261B95612300586905 /* NSString+THExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9342D6191B95612300586905 /* NSString+THExtension.h */; settings = {ASSET_TAGS = (); }; };
+		9342D6271B95612300586905 /* NSString+THExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9342D61A1B95612300586905 /* NSString+THExtension.m */; settings = {ASSET_TAGS = (); }; };
+		9342D6281B95612300586905 /* NSString+THExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9342D61A1B95612300586905 /* NSString+THExtension.m */; settings = {ASSET_TAGS = (); }; };
+		9342D6291B95612300586905 /* NSString+THExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9342D61A1B95612300586905 /* NSString+THExtension.m */; settings = {ASSET_TAGS = (); }; };
 		F980289692DC21940DE9A413362766F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BC22BC4FC3E5A66B9BBB262A2B2081 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,14 +62,19 @@
 		811EC8A1D34515AD99A702B3C5871875 /* THCategories-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "THCategories-umbrella.h"; sourceTree = "<group>"; };
 		83C6F53EE6AC766596ADC353FE3C63C2 /* Pods-THCategories_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-THCategories_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8513AB2416B4E4BCF81E724AF4536341 /* Pods_THCategories_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THCategories_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9342D6151B95612300586905 /* NSDate+THExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+THExtension.h"; path = "Classes/NSDate+THExtension.h"; sourceTree = "<group>"; };
+		9342D6161B95612300586905 /* NSDate+THExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+THExtension.m"; path = "Classes/NSDate+THExtension.m"; sourceTree = "<group>"; };
+		9342D6171B95612300586905 /* NSFileManager+THExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+THExtension.h"; path = "Classes/NSFileManager+THExtension.h"; sourceTree = "<group>"; };
+		9342D6181B95612300586905 /* NSFileManager+THExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+THExtension.m"; path = "Classes/NSFileManager+THExtension.m"; sourceTree = "<group>"; };
+		9342D6191B95612300586905 /* NSString+THExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+THExtension.h"; path = "Classes/NSString+THExtension.h"; sourceTree = "<group>"; };
+		9342D61A1B95612300586905 /* NSString+THExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+THExtension.m"; path = "Classes/NSString+THExtension.m"; sourceTree = "<group>"; };
 		93646C74CB7827DBAE0B25F1D63D9A5C /* THCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "THCategories-prefix.pch"; sourceTree = "<group>"; };
 		9FBE4CE20B791598EA664DDDD6171D4D /* Pods-THCategories_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-THCategories_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B1EC58D0367491667CDFD51161AD4B17 /* THCategories-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "THCategories-Private.xcconfig"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; };
 		BD76000A12230CD9EEB8E10F91D20D07 /* Pods-THCategories_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-THCategories_Tests-resources.sh"; sourceTree = "<group>"; };
 		D6432DF1492644C6293ABE0B0E6B36CE /* Pods-THCategories_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-THCategories_Tests-dummy.m"; sourceTree = "<group>"; };
 		E97824CE2BE0EE567C438C2ABA2436CA /* THCategories.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THCategories.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC90466286DB2693DDFB3D7390804A6A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		EDCA657D375F6C22B79F8C31540F6BAC /* Pods-THCategories_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THCategories_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FEC02ED5B83F0B8850B48097C7CC665A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,18 +161,15 @@
 			);
 			sourceTree = "<group>";
 		};
-		970FF404490AB5341FBF432045CE2D82 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				EC90466286DB2693DDFB3D7390804A6A /* ReplaceMe.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		A449601F9F4AD57DF8636BFE5D577E22 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				970FF404490AB5341FBF432045CE2D82 /* Classes */,
+				9342D6151B95612300586905 /* NSDate+THExtension.h */,
+				9342D6161B95612300586905 /* NSDate+THExtension.m */,
+				9342D6171B95612300586905 /* NSFileManager+THExtension.h */,
+				9342D6181B95612300586905 /* NSFileManager+THExtension.m */,
+				9342D6191B95612300586905 /* NSString+THExtension.h */,
+				9342D61A1B95612300586905 /* NSString+THExtension.m */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -206,7 +222,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9342D6251B95612300586905 /* NSString+THExtension.h in Headers */,
+				9342D6201B95612300586905 /* NSFileManager+THExtension.h in Headers */,
 				46CD557A9D398527689A0A91663EFB93 /* Pods-THCategories_Tests-umbrella.h in Headers */,
+				9342D61B1B95612300586905 /* NSDate+THExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +233,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9342D6261B95612300586905 /* NSString+THExtension.h in Headers */,
+				9342D6211B95612300586905 /* NSFileManager+THExtension.h in Headers */,
 				189258C9CF81795AD3A6F41892C554B4 /* THCategories-umbrella.h in Headers */,
+				9342D61C1B95612300586905 /* NSDate+THExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +348,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9342D6241B95612300586905 /* NSFileManager+THExtension.m in Sources */,
+				9342D6291B95612300586905 /* NSString+THExtension.m in Sources */,
+				9342D61F1B95612300586905 /* NSDate+THExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +358,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9342D6221B95612300586905 /* NSFileManager+THExtension.m in Sources */,
+				9342D6271B95612300586905 /* NSString+THExtension.m in Sources */,
+				9342D61D1B95612300586905 /* NSDate+THExtension.m in Sources */,
 				68DB6D2C17A09CC94FBED9AA5AD310E7 /* Pods-THCategories_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,7 +369,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D885CEF88B6BF8D595AEBE89E6CAF13 /* ReplaceMe.m in Sources */,
+				9342D6231B95612300586905 /* NSFileManager+THExtension.m in Sources */,
+				9342D6281B95612300586905 /* NSString+THExtension.m in Sources */,
+				9342D61E1B95612300586905 /* NSDate+THExtension.m in Sources */,
 				2C3AA96E3278809F55048DCB411646C8 /* THCategories-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
