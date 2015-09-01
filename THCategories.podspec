@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "THCategories"
-  s.version          = "0.5"
-  s.summary          = "A short description of THCategories."
+  s.version          = "0.5.1"
+  s.summary          = "A helpful collection of category methods."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,16 +17,17 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                        Some categories to extend base Cocoa/Cocoa Touch classes for additional functionality.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/THCategories"
+  s.homepage         = "https://github.com/taphouseio/THCategories"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Jared Sorge" => "jared@jsorge.net" }
   s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/THCategories.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'

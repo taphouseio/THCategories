@@ -1,19 +1,19 @@
 {
   "name": "THCategories",
-  "version": "0.5",
+  "version": "0.5.1",
   "summary": "A short description of THCategories.",
   "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/THCategories",
+  "homepage": "https://github.com/taphouseio/THCategories",
   "license": "MIT",
   "authors": {
     "Jared Sorge": "jared@jsorge.net"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/THCategories.git",
+    "git": "https://github.com/taphouseio/THCategories.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
